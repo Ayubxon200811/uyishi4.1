@@ -1,0 +1,43 @@
+.hero__container{
+    background-image: url("../img/Bitmap\ \(3\).jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 186px;
+    
+}
+.hero__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* or 100% */
+
+
+color: #FEFCF7;
+width: 493px;
+padding-top: 117px;
+margin-left: 85px;
+margin-bottom: 32px;
+}
+.hero__text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+margin-left: 85px;
+margin-bottom: 56px;
+width: 445px;
+
+}
+.hero__text::selection{
+    color: invert($color: #000000);
+
+}
